@@ -42,6 +42,7 @@ interface CopilotContextType {
   isFirstStep: boolean;
   isLastStep: boolean;
   currentStepNumber: number;
+  allStepNumber: number;
 }
 
 /*

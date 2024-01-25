@@ -65,6 +65,7 @@ export const CopilotProvider = ({
   const [scrollView, setScrollView] = useState<ScrollView | null>(null);
 
   const {
+    allStepNumber,
     currentStep,
     currentStepNumber,
     getFirstStep,
@@ -199,6 +200,7 @@ export const CopilotProvider = ({
       isFirstStep,
       isLastStep,
       currentStepNumber,
+      allStepNumber,
     }),
     [
       registerStep,
@@ -214,6 +216,7 @@ export const CopilotProvider = ({
       isFirstStep,
       isLastStep,
       currentStepNumber,
+      allStepNumber,
     ]
   );
 

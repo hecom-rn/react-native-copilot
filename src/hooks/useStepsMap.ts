@@ -92,6 +92,7 @@ export const useStepsMap = () => {
   }, []);
 
   return {
+    allStepNumber: orderedSteps.length,
     currentStepNumber,
     getFirstStep,
     getLastStep,

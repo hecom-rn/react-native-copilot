@@ -214,8 +214,8 @@ export const CopilotModal = forwardRef<CopilotModalHandle, Props>(
         setMaskRect({
           width: rect.width,
           height: rect.height,
-          x: Math.floor(Math.max(rect.x, 0)),
-          y: Math.floor(Math.max(rect.y, 0)),
+          x: rect.x,
+          y: rect.y,
         });
       },
       [
